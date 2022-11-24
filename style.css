@@ -8,7 +8,7 @@
 }
 
 body {
-   background: lightblue;
+   background: #081921;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -38,7 +38,7 @@ ul {
 
 .container .left_Side {
    position: relative;
-   background: #014869;
+   background: rgb(51 51 51);
    padding: 40px;
 }
 
@@ -85,7 +85,7 @@ ul {
 }
 
 .profileText h2 span {
-   font-size: 0.7em;
+   font-size: 0.8em;
    font-weight: 300;
 }
 
@@ -109,14 +109,14 @@ ul {
    position: relative;
    list-style: none;
    margin: 10px 0;
-   cursor: pointer;
+   /* cursor: pointer; */
 }
 
 .contactInfo ul li .icon {
    display: inline-block;
    width: 30px;
    font-size: 16px;
-   color: #03a9f4;
+   color: #fff;
 }
 
 .contactInfo ul li span {
@@ -129,7 +129,7 @@ ul {
 }
 
 .contactInfo.education h5 {
-   color: #03a9f4;
+   color: #fff;
    font-weight: 500;
    font-size: 16px;
 }
@@ -162,7 +162,7 @@ ul {
    background: #03a9f4;
 }
 
-.container .right_Side {
+.container .right_Side2 {
    position: relative;
    background: #fff;
    padding: 40px;
