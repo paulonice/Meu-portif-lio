@@ -177,10 +177,12 @@ ul {
 }
 
 .title2 {
+   margin: 0;
+   padding: 0;
    color: #003147;
    text-transform: uppercase;
    letter-spacing: 1px;
-   margin-bottom: 10px;
+   margin-bottom: 20px;
 }
 
 p {
