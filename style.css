@@ -277,6 +277,9 @@ p {
    .about .box .year_company {
       margin-bottom: 5px;
    }
+   p {
+      font-size: 15.5px;
+   }
    .interest ul {
       grid-template-columns: repeat(1, 1fr);
    }
