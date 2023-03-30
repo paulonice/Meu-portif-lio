@@ -119,6 +119,10 @@ ul {
    color: #fff;
 }
 
+.contactInfo ul li a {
+   text-decoration: none;
+}
+
 .contactInfo ul li span {
    color: #fff;
    font-weight: 300;
