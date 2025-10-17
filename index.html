@@ -8,57 +8,51 @@
    <link rel="stylesheet" href="style.css"> <!--Coneta a página aoo arquivo principal de estilos (CSS)-->
 </head> <!--Fecha a seção.-->
 
-<body> 
-    <div class="container">
+<body> <!--Define o corpo da página, tudo que aparece visualmente está aqui-->
+    <div class="container"> <!--Cria um "contêiner principal" para organizar o layout do currículo (geralmente dividido em colunas).-->
         <!-- INÍCIO DOC LADO ESQUERDO -->
-        <div class="left_Side">
-            <div class="profileText">
-                <div class="imgBx">
-                    <img src="./img/minhafoto.jpeg" alt="Minha foto">
->
+        <div class="left_Side"> <!--Cria uma coluna do lado esquerdo(com CSS controlando largura, cor etc)-->
+            <div class="profileText"> <!--Agrupa o conteúdo de perfil.-->
+                <div class="imgBx"> <!--Caixa para a imagem do perfil-->
+                    <img src="./img/minhafoto.jpeg" alt="Minha foto"> <!--Mostra a tua pasta armazenada na pasta jpeg-->
                 </div>
-                <h2>Paulo Sérgio<br/>
-                    <span>sistemas de Informação</span>
-                </h2>
-                    <img src="https://skillicons.dev/icons?i=html,css,js,py,firebase,git" class="logo-tech" alt="">
+                <h2>Paulo Sérgio<br/> <!--Teu nome.-->
+                    <span>sistemas de Informação</span> <!--O texto menor, curso.-->
+                </h2> 
+                    <img src="https://skillicons.dev/icons?i=html,css,js,py,firebase,git" class="logo-tech" alt=""> <!--O (<img>) traz ícones de tecnologias [HTML, CSS etc.] vindos do site "skillicons.dev"-->
             </div>
             
-            <div class="contactInfo">
-                <h3 class="title">Redes Sociais</h3>
-                <ul>
-                    <li>
-                        <span class="icon"><i class="fa-brands fa-github"></i></span>
-                        <a href="https://github.com/jjuniortt"><span class="text">/github.com/jjuniortt</span></a>
-                    </li>
+            <div class="contactInfo"> <!--Aqui é o bloco de informações de contato.-->
+                <h3 class="title">Redes Sociais</h3> <!--Título da seleção com "<h3>" e classe "title". Texto: Redes Sociais-->
+                <ul> <!--Abre uma lista não ordenada, está lista contará os itens de redes sociais.-->
+                    <li> <!--Abre "um" item da lista.-->
+                        <span class="icon"><i class="fa-brands fa-github"></i></span> <!--O (<span class="icon") contém um elemento <i> com classes do Font Awesome [fa-brands fa-github]. Isso rederiza o ícone do GitHub se a biblioteca Font Awesome estiver carregada.-->
+                        <a href="https://github.com/paulonice"><span class="text">/github.com/paulonice</span></a> <!--O "<a>" cria um link para https://github.com/paulonice. Dentro do "<a>" há um <span class="text" que mostra o texto visível /github.com/paulonice.>-->
+                    </li> <!--Fecha o item "<i>" da lista.-->
                     
-                    <li>
-                        <span class="icon"><i class="fa-brands fa-linkedin-in"></i></span>
-                        <a href="https://www.linkedin.com/in/jonas-t%C3%B3foli-81169087/"><span class="text">linkedin/jonas-t</span></a>
-                    </li>
+                    <li> <!--Abre o item da lista--> 
+                        <span class="icon"><i class="fa-brands fa-linkedin-in"></i></span> <!--Ícone do Linkedin, usando Font Awesome (fa-linkedin-in).-->
+                        <a href="https://www.linkedin.com/in/paulonice/-t%C3%B3foli-81169087/"><span class="text">linkedin/paulonice</span></a> <!--link paa o perfil do Linkedin (URL contém caracteres codificados %C3%B3) para o "ó".-->
+                    </li> <!--Fecha o item da lista.-->
                     
-                    <li>
-                        <span class="icon"><i class="fa-brands fa-instagram"></i></span>
-                        <a href="https://www.instagram.com/jonastofoli/"><span class="text">instagram/jonastofoli</span></a>
-                    </li>
+                    <li> <!--Abre o item da lista.-->
+                        <span class="icon"><i class="fa-brands fa-instagram"></i></span> <!--Ícone do Instagram usando Font Awesome-->
+                        <a href="https://www.instagram.com/jonastofoli/"><span class="text">instagram/jonastofoli</span></a> <!--Link para o instagram com o texto-->
+                    </li> <!--Fecha a o item da lista.-->
 
-                    <li>
-                        <span class="icon"><i class="fa-brands fa-twitter"></i></span>
-                        <a href="https://twitter.com/jonas_tofoli"><span class="text">/jonas_tofoli</span></a>
-                    </li>
+                    <li> <!--Abre o item da lista-->
+                        <span class="icon"><i class="fa-brands fa-facebook-f"></i></span> <!--Ícone do Facebook, usando Font Awesome-->
+                        <a href="https://www.facebook.com/jjuniortt"><span class="text">/jjuniortt</span></a> <!--Link para o Facebook usando o texto-->
+                    </li> <!--Fecha o item da lista.-->
 
-                    <li>
-                        <span class="icon"><i class="fa-brands fa-facebook-f"></i></span>
-                        <a href="https://www.facebook.com/jjuniortt"><span class="text">/jjuniortt</span></a>
-                    </li>
+                </ul> <!--Fecha a lista "<ul>" de redes sociais.-->
+            </div> <!--Fecha a (<div class="contactInfo">).-->
 
-                </ul>
-            </div>
-
-            <div class="contactInfo education">
-                <h3 class="title">Cursos Complementares</h3>
-                <ul>
-                    <li>
-                        <h5>2023 (aluno)</h5>
+            <div class="contactInfo education"> <!--Abre uma nova (<div>) com classes "contactInfo" e "education". Agrupa informações dos cursos complementares.-->
+                <h3 class="title">Cursos Complementares</h3> <!--Título se seção: Cursos Complementares.-->
+                <ul> <!--Abre uma lista não ordenada.-->
+                    <li> <!--Abre um item da lista -->
+                        <h5>2023 (aluno)</h5> 
                         <h4>Profissão: Analista de Dados v2</h4>
                         <h4>(EBAC)</h4>
                     </li>
