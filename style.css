@@ -139,6 +139,12 @@ ul {
    font-size: 16px;
 }
 
+.contactInfo.complementares h5 {
+   color: #fff;
+   font-weight: 500;
+   font-size: 16px;
+}
+
 .contactInfo.education h4:nth-child(2) {
    color: #fff;
    /* font-weight: 500; */
@@ -221,7 +227,7 @@ p {
    position: relative;
    width: 100%;
    display: grid;
-   grid-template-columns: 150px 1fr;
+   grid-template-columns: 200px 1fr;
    justify-content: center;
    align-items: center;
 }
